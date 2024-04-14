@@ -9,6 +9,5 @@
   },
   "devDependencies": {
     "vite": "^5.2.8"
-  },
-  "homepage": "https://selimcanglr.github.io/lara-bday"
+  }
 }
