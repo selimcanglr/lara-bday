@@ -235,7 +235,7 @@ function getVolume() {
 function monitorAudio(scene) {
   const currentVolume = getVolume();
   const volumeChange = Math.abs(currentVolume - lastVolume);
-  if (volumeChange > 20) {
+  if (volumeChange > 15) {
     dimFlames(scene); // Correctly uses the scene parameter
   }
   lastVolume = currentVolume;
