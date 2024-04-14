@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npx vite build"
+  },
   "dependencies": {
     "canvas-confetti": "^1.9.2",
     "three": "^0.163.0",
