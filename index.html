@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy birthday Lara!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- 'Oswald' font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style></style>
+  </head>
+  <body>
+    <p id="happy-birthday-text">Doğum</p>
+    <div style="display: flex; flex-direction: column; gap: 20px">
+      <div style="display: flex; justify-content: center; align-items: center">
+        <i id="play-icon" class="ri-play-large-fill"></i>
+        <p class="text">Hacen bas buraya uyyyyy!</p>
+        <audio id="happy-birthday-audio" src="hbty.mp3" />
+      </div>
+      <div class="border"></div>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <p class="text">Sevmediysen bunlari dinle</p>
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/playlist/0MmbCUAmfkrGjEfS7HkecR?utm_source=generator"
+          width="50%"
+          height="350"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <i id="down-icon" class="ri-arrow-down-line"></i>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
